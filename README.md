@@ -5,13 +5,13 @@ Python code accompanying **Discrimination of deposit and metal types based on st
 - **`svm_model.py`**: linear support vector machine (SVM) for deposit type classification.
 - **`rf_model.py`**: random forest (RF) for metal type classification (`Sb`, `Au`, `Au-Sb`).
 
-Both scripts provide evaluation, fitting, and prediction using the study's fixed model settings. See [README.pdf](README.pdf) for the user guide and author information.
+Both scripts provide evaluation, fitting, and prediction using the study's fixed model settings. See [README.pdf](README.pdf) for the title page, author information, and funding details.
 
 ## Installation
 
 Download and extract the repository using **Code > Download ZIP**, then open a terminal in the extracted folder.
 
-The environment reported in the user guide uses Python **3.12.14** and the following dependencies:
+The code environment uses Python **3.12.14** and the following dependencies:
 
 ```bash
 python -m pip install numpy==2.3.5 pandas==2.2.3 scipy==1.17.0 scikit-learn==1.8.0 joblib==1.5.3
